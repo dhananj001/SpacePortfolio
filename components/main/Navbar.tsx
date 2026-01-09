@@ -4,58 +4,50 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="w-screen md:w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 m-0 max-w-[1855px] items-center rounded-full">
+        <div className="w-screen md:w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 m-0 max-w-[1920px] items-center rounded-full">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[0px] md:px-[10px]">
                 <a
                     href="#home"
                     className="h-auto w-auto flex flex-row items-center"
                 >
-                    <Image
-                        src="/logo.png"
-                        alt="logo"
-                        width={50}
-                        height={50}
-                        className="cursor-pointer hover:animate-spin w-10"
-                    />
+                    <div className="relative w-10 h-10 flex items-center justify-center">
+                        <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full blur-sm opacity-60"></div>
+                        <div className="relative w-8 h-8 bg-[#030014] rounded-full flex items-center justify-center border border-purple-500/50">
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 font-bold text-lg">N</span>
+                        </div>
+                    </div>
 
                     <span className="font-bold ml-[10px] block text-gray-300 z-50 md:text-lg text-xl">
-                        Jenin Joseph
+                        Nebula<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Stack</span>
                     </span>
                 </a>
 
-                <div className="hidden w-3/6 lg:w-1/3 h-full md:flex flex-row items-center justify-between md:mx-auto lg:pr-12">
-                    <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-                        <a href="#about" className="cursor-pointer">
-                            About me
+                <div className="hidden w-auto lg:w-auto h-full md:flex flex-row items-center justify-between md:mx-auto lg:pr-12">
+                    <div className="flex items-center justify-between gap-6 w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+                        <a href="#services" className="cursor-pointer hover:text-purple-400 transition-colors">
+                            Services
                         </a>
-                        <a href="#skills" className="cursor-pointer">
-                            Skills
+                        <a href="#about" className="cursor-pointer hover:text-purple-400 transition-colors">
+                            About
                         </a>
-                        <a href="#projects" className="cursor-pointer">
-                            Projects
+                        <a href="#projects" className="cursor-pointer hover:text-purple-400 transition-colors">
+                            Portfolio
+                        </a>
+                        <a href="#testimonials" className="cursor-pointer hover:text-purple-400 transition-colors">
+                            Reviews
+                        </a>
+                        <a href="#contact" className="cursor-pointer hover:text-purple-400 transition-colors">
+                            Contact
                         </a>
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-5 text-white">
-                    {Socials.map((social) => (
-                        <a
-                            href={social.link}
-                            key={social.name}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Image
-                                src={social.src}
-                                alt={social.name}
-                                key={social.name}
-                                width={24}
-                                height={24}
-								className="cursor-pointer hover:animate-spin"
-                            />
-                        </a>
-                    ))}
-                </div>
+                <a
+                    href="#contact"
+                    className="hidden md:flex py-2 px-6 button-primary text-center text-white cursor-pointer rounded-full font-semibold hover:scale-105 transition-transform"
+                >
+                    Get Started
+                </a>
             </div>
         </div>
     );

@@ -7,7 +7,8 @@ import {
     slideInFromRight,
     slideInFromTop,
 } from "@/utils/motion";
-import { BsStars } from "react-icons/bs";
+import { BsStars, BsRocketTakeoff, BsLightningCharge } from "react-icons/bs";
+import { HiOutlineSparkles } from "react-icons/hi";
 import Image from "next/image";
 import { InView } from "react-intersection-observer";
 
@@ -21,8 +22,9 @@ const HeroContent = () => {
                     animate={inView ? "visible" : "hidden"}
                     className="flex md:flex-row flex-col-reverse items-center justify-center gap-10 md:gap-0 md:px-20 px-5 mt-40 w-full z-20"
                 >
-                    <div className="h-full w-full md:w-3/6 flex flex-col gap-5 justify-center text-start">
-                        <div className="hidden md:flex flex-row items-center md:gap-5 gap-1">
+                    <div className="h-full w-full md:w-3/5 flex flex-col gap-5 justify-center text-start">
+                        {/* Trust Badges */}
+                        <div className="flex flex-wrap items-center md:gap-4 gap-2">
                             <InView triggerOnce={false}>
                                 {({ inView, ref }) => (
                                     <motion.div
@@ -30,11 +32,11 @@ const HeroContent = () => {
                                         initial="hidden"
                                         animate={inView ? "visible" : "hidden"}
                                         variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                                        className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
                                     >
                                         <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Fullstack Developer
+                                            #1 Rated Agency
                                         </h1>
                                     </motion.div>
                                 )}
@@ -47,11 +49,11 @@ const HeroContent = () => {
                                         initial="hidden"
                                         animate={inView ? "visible" : "hidden"}
                                         variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                                        className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
                                     >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsRocketTakeoff className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Tech Innovator
+                                            50+ Projects Delivered
                                         </h1>
                                     </motion.div>
                                 )}
@@ -63,17 +65,18 @@ const HeroContent = () => {
                                         initial="hidden"
                                         animate={inView ? "visible" : "hidden"}
                                         variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                                        className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
                                     >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsLightningCharge className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Team Lead
+                                            3x Faster Results
                                         </h1>
                                     </motion.div>
                                 )}
                             </InView>
                         </div>
 
+                        {/* Main Headline */}
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
                                 <motion.div
@@ -81,68 +84,102 @@ const HeroContent = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.5)}
-                                    className="flex flex-col gap-6 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
+                                    className="flex flex-col gap-6 mt-6 md:text-6xl lg:text-7xl text-4xl font-bold text-white max-w-[800px] w-auto h-auto z-20"
                                 >
-                                    <span>
-                                        Coding
+                                    <span className="leading-tight">
+                                        We Build Websites That
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                             {" "}
-                                            Dreams{" "}
+                                            Convert{" "}
                                         </span>
-                                        into
+                                        Visitors Into
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                             {" "}
-                                            Reality{" "}
+                                            Customers
                                         </span>
-                                        one line at a time
                                     </span>
                                 </motion.div>
                             )}
                         </InView>
 
+                        {/* Subheadline */}
+                        <InView triggerOnce={false}>
+                            {({ inView, ref }) => (
+                                <motion.p
+                                    ref={ref}
+                                    initial="hidden"
+                                    animate={inView ? "visible" : "hidden"}
+                                    variants={slideInFromLeft(0.8)}
+                                    className="text-lg md:text-xl text-gray-400 my-5 max-w-[600px] z-30 leading-relaxed"
+                                >
+                                    Premium web development agency crafting high-converting,
+                                    lead-generating websites that drive 10x ROI. Your digital
+                                    presence deserves to work as hard as you do.
+                                </motion.p>
+                            )}
+                        </InView>
+
+                        {/* CTA Buttons */}
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
                                 <motion.div
                                     ref={ref}
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
-                                    variants={slideInFromLeft(0.8)}
-                                    className="text-sm md:text-md text-gray-400 my-5 max-w-[650px] z-30"
+                                    variants={slideInFromLeft(1)}
+                                    className="flex flex-col sm:flex-row gap-4 z-40"
                                 >
-                                    <li>
-                                        Finalist in the Top 100 Coders Challenge
-                                    </li>
-                                    <li>
-                                        Ranked within the Top 9,000 on
-                                        HackerRank
-                                    </li>
-                                    <li>
-                                        Participated and Completed Hacktoberfest
-                                        2023
-                                    </li>
-                                    <li>
-                                        Served as a Mentor in Multiple
-                                        Hackathons.
-                                    </li>
+                                    <a
+                                        href="#contact"
+                                        className="py-4 px-8 bg-gradient-to-r from-purple-500 to-cyan-500 text-center text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-purple-500/25"
+                                    >
+                                        Get Free Consultation
+                                    </a>
+                                    <a
+                                        href="#projects"
+                                        className="py-4 px-8 button-primary text-center text-white cursor-pointer rounded-full font-semibold text-lg border border-[#7042f88b] hover:scale-105 transition-all flex items-center justify-center gap-2"
+                                    >
+                                        <HiOutlineSparkles className="text-purple-400" />
+                                        View Our Work
+                                    </a>
                                 </motion.div>
                             )}
                         </InView>
+
+                        {/* Social Proof */}
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
-                                <motion.a
+                                <motion.div
                                     ref={ref}
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
-                                    href="#about"
-                                    variants={slideInFromLeft(1)}
-                                    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] z-40"
+                                    variants={slideInFromLeft(1.2)}
+                                    className="flex items-center gap-4 mt-6 z-40"
                                 >
-                                    Learn More!
-                                </motion.a>
+                                    <div className="flex -space-x-3">
+                                        {[1, 2, 3, 4].map((i) => (
+                                            <div
+                                                key={i}
+                                                className="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 border-2 border-[#030014] flex items-center justify-center"
+                                            >
+                                                <span className="text-white text-xs font-bold">
+                                                    {String.fromCharCode(64 + i)}
+                                                </span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                    <div className="text-gray-400 text-sm">
+                                        <span className="text-white font-semibold">200+</span> Happy Clients
+                                        <div className="flex items-center gap-1 text-yellow-400">
+                                            ★★★★★ <span className="text-gray-400">(4.9/5)</span>
+                                        </div>
+                                    </div>
+                                </motion.div>
                             )}
                         </InView>
                     </div>
 
+                    {/* Hero Image/Animation */}
                     <InView triggerOnce={false}>
                         {({ inView, ref }) => (
                             <motion.div
@@ -150,14 +187,18 @@ const HeroContent = () => {
                                 initial="hidden"
                                 animate={inView ? "visible" : "hidden"}
                                 variants={slideInFromRight(0.8)}
-                                className="w-full md:w-3/6 h-full flex justify-center items-center z-40"
+                                className="w-full md:w-2/5 h-full flex justify-center items-center z-40"
                             >
-                                <Image
-                                    src="/mainIconsdark.svg"
-                                    alt="work icons"
-                                    height={650}
-                                    width={650}
-                                />
+                                <div className="relative">
+                                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-full blur-3xl"></div>
+                                    <Image
+                                        src="/mainIconsdark.svg"
+                                        alt="web development services"
+                                        height={550}
+                                        width={550}
+                                        className="relative z-10"
+                                    />
+                                </div>
                             </motion.div>
                         )}
                     </InView>
