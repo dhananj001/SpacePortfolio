@@ -48,7 +48,7 @@ const About = () => {
                                     </div>
 
                                     {/* Floating Stats Card */}
-                                    <div className="absolute -bottom-6 -right-6 p-6 rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-500 shadow-lg shadow-purple-500/25">
+                                    <div className="absolute -bottom-6 -right-6 p-6 rounded-2xl bg-gradient-to-r from-indigo-500 to-blue-600 shadow-lg shadow-indigo-500/25">
                                         <div className="text-3xl font-bold text-white">5+</div>
                                         <div className="text-white/80 text-sm">Years Experience</div>
                                     </div>
@@ -84,11 +84,11 @@ const About = () => {
                                     className="text-4xl md:text-5xl font-bold text-white"
                                 >
                                     We Turn
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                         {" "}Visitors{" "}
                                     </span>
                                     Into
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                         {" "}Revenue
                                     </span>
                                 </motion.h2>

@@ -88,12 +88,12 @@ const HeroContent = () => {
                                 >
                                     <span className="leading-tight">
                                         We Build Websites That
-                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                             {" "}
                                             Convert{" "}
                                         </span>
                                         Visitors Into
-                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                             {" "}
                                             Customers
                                         </span>
@@ -131,7 +131,7 @@ const HeroContent = () => {
                                 >
                                     <a
                                         href="#contact"
-                                        className="py-4 px-8 bg-gradient-to-r from-purple-500 to-cyan-500 text-center text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-purple-500/25"
+                                        className="py-4 px-8 bg-gradient-to-r from-indigo-500 to-blue-600 text-center text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                                     >
                                         Get Free Consultation
                                     </a>
@@ -160,7 +160,7 @@ const HeroContent = () => {
                                         {[1, 2, 3, 4].map((i) => (
                                             <div
                                                 key={i}
-                                                className="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 border-2 border-[#030014] flex items-center justify-center"
+                                                className="w-10 h-10 rounded-full bg-gradient-to-r from-indigo-500 to-blue-600 border-2 border-[#030014] flex items-center justify-center"
                                             >
                                                 <span className="text-white text-xs font-bold">
                                                     {String.fromCharCode(64 + i)}
@@ -190,7 +190,7 @@ const HeroContent = () => {
                                 className="w-full md:w-2/5 h-full flex justify-center items-center z-40"
                             >
                                 <div className="relative">
-                                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-full blur-3xl"></div>
+                                    <div className="absolute inset-0 rounded-full blur-3xl"></div>
                                     <Image
                                         src="/mainIconsdark.svg"
                                         alt="web development services"

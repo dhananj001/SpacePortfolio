@@ -46,7 +46,7 @@ const Contact = () => {
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
                                 Start Your
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                     {" "}Project Today
                                 </span>
                             </h2>
@@ -141,7 +141,7 @@ const Contact = () => {
 
                                     <button
                                         type="submit"
-                                        className="w-full py-4 bg-gradient-to-r from-purple-500 to-cyan-500 text-white cursor-pointer rounded-xl font-semibold text-lg hover:scale-[1.02] transition-all hover:shadow-lg hover:shadow-purple-500/25"
+                                        className="w-full py-4 bg-gradient-to-r from-indigo-500 to-blue-600 text-white cursor-pointer rounded-xl font-semibold text-lg hover:scale-[1.02] transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                                     >
                                         Send Message & Get Free Quote
                                     </button>

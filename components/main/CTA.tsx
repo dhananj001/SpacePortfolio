@@ -45,7 +45,7 @@ const CTA = () => {
                                     className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6"
                                 >
                                     Ready to Build Your
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                         {" "}Lead Generation Machine?
                                     </span>
                                 </motion.h2>
@@ -64,7 +64,7 @@ const CTA = () => {
                                 >
                                     <a
                                         href="#contact"
-                                        className="group py-4 px-10 bg-gradient-to-r from-purple-500 to-cyan-500 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-purple-500/25 flex items-center gap-2"
+                                        className="group py-4 px-10 bg-gradient-to-r from-indigo-500 to-blue-600 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25 flex items-center gap-2"
                                     >
                                         Get Your Free Strategy Call
                                         <HiOutlineArrowRight className="group-hover:translate-x-1 transition-transform" />

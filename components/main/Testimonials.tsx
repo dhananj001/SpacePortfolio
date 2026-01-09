@@ -75,7 +75,7 @@ const Testimonials = () => {
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
                                 What Our
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                     {" "}Clients Say
                                 </span>
                             </h2>
@@ -100,7 +100,7 @@ const Testimonials = () => {
                                     className="relative p-8 rounded-2xl bg-gradient-to-b from-[#0c0c1d] to-transparent border border-[#7042f861] hover:border-purple-500/50 transition-all duration-300"
                                 >
                                     {/* Result Badge */}
-                                    <div className="absolute -top-3 -right-3 py-1 px-4 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full text-white text-sm font-semibold">
+                                    <div className="absolute -top-3 -right-3 py-1 px-4 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full text-white text-sm font-semibold">
                                         {testimonial.result}
                                     </div>
 
@@ -118,7 +118,7 @@ const Testimonials = () => {
 
                                     {/* Author */}
                                     <div className="flex items-center gap-4">
-                                        <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 flex items-center justify-center">
+                                        <div className="w-12 h-12 rounded-full bg-gradient-to-r from-indigo-500 to-blue-600 flex items-center justify-center">
                                             <span className="text-white font-bold text-lg">
                                                 {testimonial.avatar}
                                             </span>

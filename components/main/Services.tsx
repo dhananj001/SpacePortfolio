@@ -71,7 +71,7 @@ const Services = () => {
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
                                 Services That
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                     {" "}Drive Results
                                 </span>
                             </h2>
@@ -142,7 +142,7 @@ const Services = () => {
                         >
                             <a
                                 href="#contact"
-                                className="inline-flex items-center gap-2 py-4 px-8 bg-gradient-to-r from-purple-500 to-cyan-500 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-purple-500/25"
+                                className="inline-flex items-center gap-2 py-4 px-8 bg-gradient-to-r from-indigo-500 to-blue-600 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                             >
                                 Discuss Your Project
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

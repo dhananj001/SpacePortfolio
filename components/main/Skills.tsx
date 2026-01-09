@@ -57,7 +57,7 @@ const Skills = () => {
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
                                 How We
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                     {" "}Deliver Excellence
                                 </span>
                             </h2>
@@ -89,7 +89,7 @@ const Skills = () => {
 
                                     {/* Connector Line */}
                                     {index < 3 && (
-                                        <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-purple-500 to-cyan-500" />
+                                        <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-indigo-500 to-blue-600" />
                                     )}
                                 </motion.div>
                             )}
@@ -124,7 +124,7 @@ const Skills = () => {
                                 variants={slideInFromLeft(0.5)}
                                 className="rounded-2xl text-white p-6 border border-[#7042f88b] bg-gradient-to-b from-[#0c0c1d] to-transparent"
                             >
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-xl font-bold">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600 text-xl font-bold">
                                     Frontend Technologies
                                 </span>
                                 <div className="flex flex-row justify-around flex-wrap my-6 gap-5 items-center">
@@ -152,7 +152,7 @@ const Skills = () => {
                                 variants={slideInFromRight(0.5)}
                                 className="rounded-2xl text-white p-6 border border-[#7042f88b] bg-gradient-to-b from-[#0c0c1d] to-transparent"
                             >
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-xl font-bold">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600 text-xl font-bold">
                                     Backend & Databases
                                 </span>
                                 <div className="flex flex-row justify-around flex-wrap my-6 gap-5 items-center">
@@ -180,7 +180,7 @@ const Skills = () => {
                                 variants={slideInFromLeft(0.5)}
                                 className="rounded-2xl text-white p-6 border border-[#7042f88b] bg-gradient-to-b from-[#0c0c1d] to-transparent"
                             >
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-xl font-bold">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600 text-xl font-bold">
                                     Dev Tools & Deployment
                                 </span>
                                 <div className="flex flex-row justify-around flex-wrap my-6 gap-5 items-center">
@@ -208,7 +208,7 @@ const Skills = () => {
                                 variants={slideInFromRight(0.5)}
                                 className="rounded-2xl text-white p-6 border border-[#7042f88b] bg-gradient-to-b from-[#0c0c1d] to-transparent"
                             >
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-xl font-bold">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600 text-xl font-bold">
                                     Libraries & Frameworks
                                 </span>
                                 <div className="flex flex-row justify-around flex-wrap my-6 gap-5 items-center">

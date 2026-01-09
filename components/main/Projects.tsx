@@ -59,7 +59,7 @@ const Projects = () => {
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
                                 Case Studies That
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
                                     {" "}Prove Results
                                 </span>
                             </h2>

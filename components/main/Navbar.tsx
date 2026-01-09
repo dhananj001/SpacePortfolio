@@ -11,14 +11,14 @@ const Navbar = () => {
                     className="h-auto w-auto flex flex-row items-center"
                 >
                     <div className="relative w-10 h-10 flex items-center justify-center">
-                        <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full blur-sm opacity-60"></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full blur-sm opacity-60"></div>
                         <div className="relative w-8 h-8 bg-[#030014] rounded-full flex items-center justify-center border border-purple-500/50">
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 font-bold text-lg">N</span>
                         </div>
                     </div>
 
                     <span className="font-bold ml-[10px] block text-gray-300 z-50 md:text-lg text-xl">
-                        Nebula<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Stack</span>
+                        Nebula<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">Stack</span>
                     </span>
                 </a>
 
