@@ -8,12 +8,12 @@ import { InView } from "react-intersection-observer";
 import { HiOutlineCheckCircle } from "react-icons/hi";
 
 const features = [
-    "Conversion-Focused Design",
-    "Mobile-First Development",
-    "SEO Optimized",
-    "Lightning Fast Performance",
-    "24/7 Support",
-    "Scalable Architecture"
+    "High-Performance Architecture",
+    "Sub-Second Load Times",
+    "Automated Lead Capture",
+    "Custom Business Logic",
+    "Enterprise-Grade Security",
+    "Scalable Infrastructure"
 ];
 
 const About = () => {
@@ -49,8 +49,8 @@ const About = () => {
 
                                     {/* Floating Stats Card */}
                                     <div className="absolute -bottom-6 -right-6 p-6 rounded-2xl bg-gradient-to-r from-indigo-500 to-blue-600 shadow-lg shadow-indigo-500/25">
-                                        <div className="text-3xl font-bold text-white">5+</div>
-                                        <div className="text-white/80 text-sm">Years Experience</div>
+                                        <div className="text-3xl font-bold text-white">50+</div>
+                                        <div className="text-white/80 text-sm">Systems Deployed</div>
                                     </div>
                                 </div>
                             </motion.div>
@@ -83,13 +83,13 @@ const About = () => {
                                     variants={slideInFromRight(0.3)}
                                     className="text-4xl md:text-5xl font-bold text-white"
                                 >
-                                    We Turn
+                                    Engineering
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                        {" "}Visitors{" "}
+                                        {" "}Digital Systems{" "}
                                     </span>
-                                    Into
+                                    That
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                        {" "}Revenue
+                                        {" "}Scale
                                     </span>
                                 </motion.h2>
                             )}
@@ -104,11 +104,10 @@ const About = () => {
                                     variants={slideInFromRight(0.5)}
                                     className="text-gray-400 text-lg leading-relaxed"
                                 >
-                                    NebulaStack is a premium web development agency specializing in
-                                    high-converting websites and web applications. We combine stunning
-                                    design with strategic conversion optimization to create digital
-                                    experiences that don&apos;t just look good — they generate leads and
-                                    drive sales.
+                                    Nebula Stack is a digital consultancy for businesses that refuse to 
+                                    compromise on performance. We architect high-velocity web platforms 
+                                    and custom business software that eliminate bottlenecks, automate 
+                                    operations, and compound your competitive advantage.
                                 </motion.p>
                             )}
                         </InView>
@@ -122,9 +121,9 @@ const About = () => {
                                     variants={slideInFromRight(0.6)}
                                     className="text-gray-400 text-lg leading-relaxed"
                                 >
-                                    Our team of designers, developers, and strategists work together
-                                    to understand your business goals and create tailored solutions
-                                    that deliver measurable results.
+                                    Our engineering team specializes in performance optimization, 
+                                    custom integrations, and automated lead ecosystems. Every solution 
+                                    is architected for speed, security, and measurable ROI.
                                 </motion.p>
                             )}
                         </InView>
@@ -163,7 +162,7 @@ const About = () => {
                                         href="#services"
                                         className="inline-flex items-center gap-2 py-4 px-8 button-primary text-white cursor-pointer rounded-full font-semibold border border-[#7042f88b] hover:scale-105 transition-all"
                                     >
-                                        Explore Our Services
+                                        Explore Our Capabilities
                                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                         </svg>

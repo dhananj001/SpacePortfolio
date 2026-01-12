@@ -34,9 +34,9 @@ const HeroContent = () => {
                                         variants={slideInFromTop}
                                         className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
                                     >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsLightningCharge className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            #1 Rated Agency
+                                            0.4s Load Times
                                         </h1>
                                     </motion.div>
                                 )}
@@ -51,9 +51,9 @@ const HeroContent = () => {
                                         variants={slideInFromTop}
                                         className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
                                     >
-                                        <BsRocketTakeoff className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            50+ Projects Delivered
+                                            Custom Business Intelligence
                                         </h1>
                                     </motion.div>
                                 )}
@@ -67,9 +67,9 @@ const HeroContent = () => {
                                         variants={slideInFromTop}
                                         className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
                                     >
-                                        <BsLightningCharge className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsRocketTakeoff className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            3x Faster Results
+                                            Automated Lead Ecosystems
                                         </h1>
                                     </motion.div>
                                 )}
@@ -84,18 +84,16 @@ const HeroContent = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.5)}
-                                    className="flex flex-col gap-6 mt-6 md:text-6xl lg:text-7xl text-4xl font-bold text-white max-w-[800px] w-auto h-auto z-20"
+                                    className="flex flex-col gap-6 mt-6 md:text-5xl lg:text-6xl text-3xl font-bold text-white max-w-[800px] w-auto h-auto z-20"
                                 >
                                     <span className="leading-tight">
-                                        We Build Websites That
+                                        We Build
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                            {" "}
-                                            Convert{" "}
+                                            {" "}Digital Engines,{" "}
                                         </span>
-                                        Visitors Into
+                                        Not Just
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                            {" "}
-                                            Customers
+                                            {" "}Websites.
                                         </span>
                                     </span>
                                 </motion.div>
@@ -110,11 +108,11 @@ const HeroContent = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.8)}
-                                    className="text-lg md:text-xl text-gray-400 my-5 max-w-[600px] z-30 leading-relaxed"
+                                    className="text-lg md:text-xl text-gray-400 my-5 max-w-[650px] z-30 leading-relaxed"
                                 >
-                                    Premium web development agency crafting high-converting,
-                                    lead-generating websites that drive 10x ROI. Your digital
-                                    presence deserves to work as hard as you do.
+                                    Stop losing customers to slow loading speeds. We engineer 
+                                    high-performance websites and custom business software that 
+                                    loads instantly, ranks higher, and automates your leads.
                                 </motion.p>
                             )}
                         </InView>
@@ -133,14 +131,14 @@ const HeroContent = () => {
                                         href="#contact"
                                         className="py-4 px-8 bg-gradient-to-r from-indigo-500 to-blue-600 text-center text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                                     >
-                                        Get Free Consultation
+                                        Request Architecture Review
                                     </a>
                                     <a
                                         href="#projects"
                                         className="py-4 px-8 button-primary text-center text-white cursor-pointer rounded-full font-semibold text-lg border border-[#7042f88b] hover:scale-105 transition-all flex items-center justify-center gap-2"
                                     >
                                         <HiOutlineSparkles className="text-purple-400" />
-                                        View Our Work
+                                        View Case Studies
                                     </a>
                                 </motion.div>
                             )}
@@ -169,9 +167,9 @@ const HeroContent = () => {
                                         ))}
                                     </div>
                                     <div className="text-gray-400 text-sm">
-                                        <span className="text-white font-semibold">200+</span> Happy Clients
+                                        <span className="text-white font-semibold">$12M+</span> Revenue Generated for Clients
                                         <div className="flex items-center gap-1 text-yellow-400">
-                                            ★★★★★ <span className="text-gray-400">(4.9/5)</span>
+                                            ★★★★★ <span className="text-gray-400">Enterprise-Grade Solutions</span>
                                         </div>
                                     </div>
                                 </motion.div>

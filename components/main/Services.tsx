@@ -16,39 +16,39 @@ import {
 const services = [
     {
         icon: HiOutlineCode,
-        title: "Custom Web Development",
-        description: "Bespoke websites built with cutting-edge technologies. From simple landing pages to complex web applications.",
-        features: ["React/Next.js", "Node.js Backend", "API Integration", "Database Design"]
-    },
-    {
-        icon: HiOutlineDeviceMobile,
-        title: "Responsive Design",
-        description: "Mobile-first designs that look stunning on every device. 60% of web traffic is mobile - we make sure you capture it.",
-        features: ["Mobile Optimization", "Cross-Browser", "Fast Loading", "Touch Friendly"]
+        title: "High-Performance Web Architecture",
+        description: "Custom-engineered platforms with sub-400ms load times. Built on Next.js, optimized at every layer from CDN to database queries.",
+        features: ["Edge Deployment", "SSR/ISR Optimization", "API Architecture", "0.4s Load Times"]
     },
     {
         icon: HiOutlineChartBar,
-        title: "Conversion Optimization",
-        description: "Data-driven designs focused on converting visitors into leads. Every element is strategically placed.",
-        features: ["A/B Testing", "Heat Maps", "User Analytics", "Sales Funnels"]
-    },
-    {
-        icon: HiOutlineShoppingCart,
-        title: "E-Commerce Solutions",
-        description: "Powerful online stores that drive sales. Seamless checkout experiences that reduce cart abandonment.",
-        features: ["Shopify/WooCommerce", "Payment Integration", "Inventory Management", "Order Tracking"]
+        title: "Custom Business Intelligence",
+        description: "Proprietary dashboards and analytics systems that transform your data into actionable insights. Real-time KPIs that drive decisions.",
+        features: ["Custom Dashboards", "Data Pipelines", "Predictive Analytics", "Automated Reporting"]
     },
     {
         icon: HiOutlineCog,
-        title: "Web Applications",
-        description: "Full-stack applications with robust functionality. SaaS platforms, dashboards, and custom tools.",
-        features: ["User Authentication", "Real-time Features", "Cloud Hosting", "Scalable Architecture"]
+        title: "Automated Lead Ecosystems",
+        description: "End-to-end lead capture, qualification, and nurturing systems. CRM integrations that eliminate manual follow-up.",
+        features: ["Lead Scoring", "CRM Integration", "Email Automation", "Pipeline Management"]
+    },
+    {
+        icon: HiOutlineDeviceMobile,
+        title: "Enterprise Web Applications",
+        description: "Full-stack SaaS platforms, internal tools, and client portals. Architected for scale, security, and maintainability.",
+        features: ["User Authentication", "Role-Based Access", "Audit Logging", "99.9% Uptime"]
+    },
+    {
+        icon: HiOutlineShoppingCart,
+        title: "Revenue Systems & E-Commerce",
+        description: "High-converting checkout flows with intelligent upsells. Subscription billing, payment orchestration, and fraud prevention.",
+        features: ["Stripe/PayPal", "Subscription Logic", "Cart Recovery", "Revenue Analytics"]
     },
     {
         icon: HiOutlineGlobe,
-        title: "SEO & Performance",
-        description: "Websites optimized to rank higher and load faster. First-page Google rankings that drive organic traffic.",
-        features: ["Technical SEO", "Core Web Vitals", "Content Strategy", "Link Building"]
+        title: "Performance & SEO Engineering",
+        description: "Technical SEO audits and Core Web Vitals optimization. We engineer pages that rank and convert simultaneously.",
+        features: ["Core Web Vitals", "Schema Markup", "Site Architecture", "Speed Optimization"]
     }
 ];
 
@@ -67,17 +67,17 @@ const Services = () => {
                             className="text-center mb-16"
                         >
                             <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                <span className="Welcome-text text-[14px]">What We Offer</span>
+                                <span className="Welcome-text text-[14px]">Our Capabilities</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-                                Services That
+                                Engineered For
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                    {" "}Drive Results
+                                    {" "}Performance
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                We don&apos;t just build websites — we craft digital experiences that
-                                convert visitors into loyal customers and generate consistent leads.
+                                We don&apos;t build generic websites. We engineer custom digital infrastructure 
+                                that accelerates your business — from high-velocity platforms to automated revenue systems.
                             </p>
                         </motion.div>
                     )}
@@ -144,7 +144,7 @@ const Services = () => {
                                 href="#contact"
                                 className="inline-flex items-center gap-2 py-4 px-8 bg-gradient-to-r from-indigo-500 to-blue-600 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                             >
-                                Discuss Your Project
+                                Schedule Technical Discovery
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
