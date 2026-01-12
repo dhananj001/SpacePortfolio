@@ -30,7 +30,7 @@ const stats = [
 
 const Stats = () => {
     return (
-        <section className="py-16 relative z-10">
+        <section className="py-16 relative z-10 overflow-hidden">
             <div className="max-w-7xl mx-auto px-5 md:px-10">
                 <InView triggerOnce={false}>
                     {({ inView, ref }) => (

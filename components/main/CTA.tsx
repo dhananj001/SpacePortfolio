@@ -8,7 +8,7 @@ import { HiOutlineSparkles, HiOutlineArrowRight } from "react-icons/hi";
 
 const CTA = () => {
     return (
-        <section className="py-20 relative">
+        <section className="py-20 relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-5 md:px-10">
                 <InView triggerOnce={false}>
                     {({ inView, ref }) => (

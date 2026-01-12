@@ -189,14 +189,14 @@ const HeroContent = () => {
                                 variants={slideInFromRight(0.8)}
                                 className="w-full md:w-2/5 h-full flex justify-center items-center z-40"
                             >
-                                <div className="relative">
+                                <div className="relative w-full h-[550px] md:w-[550px] md:h-[550px] overflow-hidden">
                                     <div className="absolute inset-0 rounded-full blur-3xl"></div>
                                     <Image
                                         src="/mainIconsdark.svg"
                                         alt="web development services"
-                                        height={550}
-                                        width={550}
-                                        className="relative z-10"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 550px"
+                                        className="relative object-contain"
                                     />
                                 </div>
                             </motion.div>

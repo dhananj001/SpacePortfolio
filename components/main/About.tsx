@@ -32,18 +32,18 @@ const About = () => {
                                 initial="hidden"
                                 animate={inView ? "visible" : "hidden"}
                                 variants={slideInFromLeft(0.5)}
-                                className="relative"
+                                className="relative overflow-hidden"
                             >
                                 <div className="relative z-10">
                                     {/* Main Image/Visual */}
-                                    <div className="relative rounded-2xl overflow-hidden border border-[#7042f861] bg-gradient-to-b from-[#0c0c1d] to-transparent p-8">
+                                    <div className="relative rounded-2xl overflow-hidden border border-[#7042f861] bg-gradient-to-b from-[#0c0c1d] to-transparent p-8 w-full h-[400px] lg:w-[500px] lg:h-[400px]">
                                         <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-cyan-500/10" />
                                         <Image
                                             src="/mainIconsdark.svg"
                                             alt="NebulaStack Team"
-                                            width={500}
-                                            height={400}
-                                            className="relative z-10"
+                                            fill
+                                            sizes="(max-width: 1024px) 100vw, 500px"
+                                            className="relative z-10 object-contain"
                                         />
                                     </div>
 
