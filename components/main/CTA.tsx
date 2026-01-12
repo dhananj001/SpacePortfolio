@@ -19,14 +19,14 @@ const CTA = () => {
                             className="relative p-12 md:p-20 rounded-3xl overflow-hidden"
                         >
                             {/* Background */}
-                            <div className="absolute inset-0 bg-gradient-to-r from-purple-900/50 via-[#0f0f2d] to-cyan-900/50 border border-[#7042f861] rounded-3xl" />
+                            <div className="absolute inset-0 bg-gradient-to-r from-purple-900/50 via-[#0f0f2d] to-cyan-900/50 border border-[#7042f861] rounded-3xl pointer-events-none" />
 
                             {/* Glow Effects */}
-                            <div className="absolute top-0 left-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl" />
-                            <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl" />
+                            <div className="absolute top-0 left-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl pointer-events-none" />
+                            <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl pointer-events-none" />
 
                             {/* Grid Pattern */}
-                            <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M0%200h40v40H0z%22%20fill%3D%22none%22%20stroke%3D%22%237042f815%22%20stroke-width%3D%221%22%2F%3E%3C%2Fsvg%3E')] opacity-50" />
+                            <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M0%200h40v40H0z%22%20fill%3D%22none%22%20stroke%3D%22%237042f815%22%20stroke-width%3D%221%22%2F%3E%3C%2Fsvg%3E')] opacity-50 pointer-events-none" />
 
                             {/* Content */}
                             <div className="relative z-10 text-center">

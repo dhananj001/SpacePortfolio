@@ -59,14 +59,9 @@
     box-shadow: inset 0 0 12px #bf97ff70;
 }
 
-/* Gradient Text Animation */
-.gradient-text-animate {
-    background: linear-gradient(90deg, #a855f7, #06b6d4, #a855f7);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradient-shift 3s ease infinite;
+/* Utility class for decorative overlay elements */
+.decorative-overlay {
+    pointer-events: none;
 }
 
 @keyframes gradient-shift {

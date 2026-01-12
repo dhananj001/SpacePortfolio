@@ -41,8 +41,8 @@ const Stats = () => {
                             className="relative p-8 md:p-12 rounded-3xl bg-gradient-to-r from-[#0c0c1d] via-[#0f0f2d] to-[#0c0c1d] border border-[#7042f861] overflow-hidden"
                         >
                             {/* Background Glow */}
-                            <div className="absolute top-0 left-1/4 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl" />
-                            <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
+                            <div className="absolute top-0 left-1/4 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
+                            <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
 
                             <div className="relative grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
                                 {stats.map((stat, index) => (

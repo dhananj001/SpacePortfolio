@@ -25,6 +25,9 @@ const Navbar = () => {
                         <a href="#services" className="cursor-pointer hover:text-purple-400 transition-colors">
                             Services
                         </a>
+                        <a href="#pricing" className="cursor-pointer hover:text-purple-400 transition-colors">
+                            Pricing
+                        </a>
                         <a href="#about" className="cursor-pointer hover:text-purple-400 transition-colors">
                             About
                         </a>

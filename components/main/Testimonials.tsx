@@ -100,7 +100,7 @@ const Testimonials = () => {
                                     className="relative p-8 rounded-2xl bg-gradient-to-b from-[#0c0c1d] to-transparent border border-[#7042f861] hover:border-purple-500/50 transition-all duration-300"
                                 >
                                     {/* Result Badge */}
-                                    <div className="absolute -top-3 -right-3 py-1 px-4 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full text-white text-sm font-semibold">
+                                    <div className="absolute -top-3 -right-3 py-1 px-4 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full text-white text-sm font-semibold pointer-events-none">
                                         {testimonial.result}
                                     </div>
 

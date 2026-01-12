@@ -89,7 +89,7 @@ const Skills = () => {
 
                                     {/* Connector Line */}
                                     {index < 3 && (
-                                        <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-indigo-500 to-blue-600" />
+                                        <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-indigo-500 to-blue-600 pointer-events-none" />
                                     )}
                                 </motion.div>
                             )}
@@ -229,10 +229,10 @@ const Skills = () => {
             </div>
 
             {/* Background Video */}
-            <div className="hidden md:block w-full h-full absolute top-24 -z-10">
-                <div className="w-full h-full opacity-20 absolute flex items-center justify-center bg-cover">
+            <div className="hidden md:block w-full h-full absolute top-24 -z-10 pointer-events-none">
+                <div className="w-full h-full opacity-20 absolute flex items-center justify-center bg-cover pointer-events-none">
                     <video
-                        className="w-full h-auto"
+                        className="w-full h-auto pointer-events-none"
                         preload="false"
                         playsInline
                         loop

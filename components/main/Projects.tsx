@@ -91,7 +91,7 @@ const Projects = () => {
                                             fill
                                             className="object-cover group-hover:scale-110 transition-transform duration-500"
                                         />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c1d] to-transparent" />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c1d] to-transparent pointer-events-none" />
 
                                         {/* Category Badge */}
                                         <div className="absolute top-4 left-4">
