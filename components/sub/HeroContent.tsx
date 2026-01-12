@@ -110,8 +110,8 @@ const HeroContent = () => {
                                     variants={slideInFromLeft(0.8)}
                                     className="text-lg md:text-xl text-gray-400 my-5 max-w-[650px] z-30 leading-relaxed"
                                 >
-                                    Stop losing customers to slow loading speeds. We engineer 
-                                    high-performance websites and custom business software that 
+                                    Stop losing customers to slow loading speeds. We engineer
+                                    high-performance websites and custom business software that
                                     loads instantly, ranks higher, and automates your leads.
                                 </motion.p>
                             )}

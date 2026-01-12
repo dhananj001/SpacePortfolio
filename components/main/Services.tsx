@@ -76,7 +76,7 @@ const Services = () => {
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                We don&apos;t build generic websites. We engineer custom digital infrastructure 
+                                We don&apos;t build generic websites. We engineer custom digital infrastructure
                                 that accelerates your business — from high-velocity platforms to automated revenue systems.
                             </p>
                         </motion.div>

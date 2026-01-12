@@ -104,9 +104,9 @@ const About = () => {
                                     variants={slideInFromRight(0.5)}
                                     className="text-gray-400 text-lg leading-relaxed"
                                 >
-                                    Nebula Stack is a digital consultancy for businesses that refuse to 
-                                    compromise on performance. We architect high-velocity web platforms 
-                                    and custom business software that eliminate bottlenecks, automate 
+                                    Nebula Stack is a digital consultancy for businesses that refuse to
+                                    compromise on performance. We architect high-velocity web platforms
+                                    and custom business software that eliminate bottlenecks, automate
                                     operations, and compound your competitive advantage.
                                 </motion.p>
                             )}
@@ -121,8 +121,8 @@ const About = () => {
                                     variants={slideInFromRight(0.6)}
                                     className="text-gray-400 text-lg leading-relaxed"
                                 >
-                                    Our engineering team specializes in performance optimization, 
-                                    custom integrations, and automated lead ecosystems. Every solution 
+                                    Our engineering team specializes in performance optimization,
+                                    custom integrations, and automated lead ecosystems. Every solution
                                     is architected for speed, security, and measurable ROI.
                                 </motion.p>
                             )}
