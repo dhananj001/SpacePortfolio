@@ -12,7 +12,7 @@ import Contact from "@/components/main/Contact";
 export default function Home() {
 	return (
 		<main className="h-full w-full overflow-x-hidden">
-			<div className="flex flex-col gap-20">
+			<div className="flex flex-col">
 				{/* 1. HOOK - Grab attention with pain point */}
 				<Hero />
 				{/* 2. AUTHORITY - Immediate credibility boost */}

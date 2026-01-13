@@ -185,7 +185,7 @@ const HeroContent = () => {
                                 initial="hidden"
                                 animate={inView ? "visible" : "hidden"}
                                 variants={slideInFromRight(0.8)}
-                                className="w-full md:w-2/5 h-full flex justify-center items-center z-40"
+                                className="hidden md:flex w-full md:w-2/5 h-full justify-center items-center z-40"
                             >
                                 <div className="relative w-full h-[550px] md:w-[550px] md:h-[550px] overflow-hidden">
                                     <div className="absolute inset-0 rounded-full blur-3xl"></div>
