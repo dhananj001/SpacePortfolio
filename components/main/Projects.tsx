@@ -89,7 +89,6 @@ const Projects = () => {
                                                     preload="metadata"
                                                     poster={project.images[0]}
                                                     style={{
-                                                        imageRendering: 'optimizeQuality',
                                                         transform: 'translateZ(0)',
                                                         backfaceVisibility: 'hidden',
                                                         WebkitFontSmoothing: 'antialiased',
@@ -143,8 +142,6 @@ const Projects = () => {
                                                         preload="metadata"
                                                         poster={project.images[0]}
                                                         style={{
-                                                            imageRendering: 'optimizeQuality',
-                                                            transform: 'translateZ(0)',
                                                             backfaceVisibility: 'hidden',
                                                             WebkitFontSmoothing: 'antialiased',
                                                             MozOsxFontSmoothing: 'grayscale',

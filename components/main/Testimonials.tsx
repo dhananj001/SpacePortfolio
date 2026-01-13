@@ -80,7 +80,7 @@ const Testimonials = () => {
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                "Is it worth the investment?" "Will it actually work for my business?"
+                                &ldquo;Is it worth the investment?&rdquo; &ldquo;Will it actually work for my business?&rdquo;
                                 Here&apos;s what they discovered after working with us.
                             </p>
                         </motion.div>
