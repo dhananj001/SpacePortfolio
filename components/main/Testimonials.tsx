@@ -7,6 +7,14 @@ import { InView } from "react-intersection-observer";
 
 const testimonials = [
     {
+        name: "Vikram Patel",
+        role: "Owner, Tipsybbe",
+        content: "When we approached Dhananjay for our restaurant website, we wanted something that looked modern and worked seamlessly. The reservation system is a game-changer. We've cut down booking times from 15 minutes to instant, and our customers love the experience. The entire platform feels premium.",
+        avatar: "V",
+        rating: 5,
+        result: "Instant Bookings"
+    },
+    {
         name: "Sarah Johnson",
         role: "CEO, TechStart Inc.",
         content: "NebulaStack transformed our online presence completely. Our conversion rate increased by 340% within the first month. The team understood our vision and delivered beyond expectations.",
@@ -37,14 +45,6 @@ const testimonials = [
         avatar: "D",
         rating: 5,
         result: "+200% Sales"
-    },
-    {
-        name: "Lisa Thompson",
-        role: "Head of Digital, Innovate Co",
-        content: "Professional, responsive, and incredibly talented. They delivered our complex web application on time and under budget. The ongoing support is exceptional.",
-        avatar: "L",
-        rating: 5,
-        result: "On Time & Budget"
     },
     {
         name: "James Wilson",
@@ -104,20 +104,8 @@ const Testimonials = () => {
                                         {testimonial.result}
                                     </div>
 
-                                    {/* Stars */}
-                                    <div className="flex gap-1 mb-4 text-yellow-400">
-                                        {[...Array(testimonial.rating)].map((_, i) => (
-                                            <span key={i}>★</span>
-                                        ))}
-                                    </div>
-
-                                    {/* Content */}
-                                    <p className="text-gray-300 mb-6 leading-relaxed italic">
-                                        &ldquo;{testimonial.content}&rdquo;
-                                    </p>
-
-                                    {/* Author */}
-                                    <div className="flex items-center gap-4">
+                                    {/* Author - Top */}
+                                    <div className="flex items-center gap-4 mb-6">
                                         <div className="w-12 h-12 rounded-full bg-gradient-to-r from-indigo-500 to-blue-600 flex items-center justify-center">
                                             <span className="text-white font-bold text-lg">
                                                 {testimonial.avatar}
@@ -131,6 +119,18 @@ const Testimonials = () => {
                                                 {testimonial.role}
                                             </div>
                                         </div>
+                                    </div>
+
+                                    {/* Content */}
+                                    <p className="text-gray-300 mb-6 leading-relaxed italic">
+                                        &ldquo;{testimonial.content}&rdquo;
+                                    </p>
+
+                                    {/* Stars - Bottom */}
+                                    <div className="flex gap-1 text-yellow-400">
+                                        {[...Array(testimonial.rating)].map((_, i) => (
+                                            <span key={i}>★</span>
+                                        ))}
                                     </div>
                                 </motion.div>
                             )}
