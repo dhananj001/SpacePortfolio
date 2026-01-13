@@ -55,17 +55,17 @@ const Projects = () => {
                             className="text-center mb-16"
                         >
                             <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                <span className="Welcome-text text-[14px]">Our Portfolio</span>
+                                <span className="Welcome-text text-[14px]">Proof, Not Promises</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-                                Case Studies That
+                                See The Numbers
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                    {" "}Prove Results
+                                    {" "}Before You Decide
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                Real projects with measurable outcomes. See how we&apos;ve helped businesses
-                                transform their digital presence and achieve their goals.
+                                We don&apos;t hide behind vague claims. Every metric here is verified.
+                                These businesses took the leap — and the ROI speaks for itself.
                             </p>
                         </motion.div>
                     )}
@@ -159,11 +159,12 @@ const Projects = () => {
                             variants={slideInFromTop}
                             className="text-center mt-12"
                         >
+                            <p className="text-gray-500 mb-4">Ready to see what this investment looks like?</p>
                             <a
-                                href="#contact"
+                                href="#pricing"
                                 className="inline-flex items-center gap-2 py-4 px-8 button-primary text-white cursor-pointer rounded-full font-semibold border border-[#7042f88b] hover:scale-105 transition-all"
                             >
-                                Start Your Project
+                                View Transparent Pricing
                                 <HiOutlineArrowRight className="w-5 h-5" />
                             </a>
                         </motion.div>

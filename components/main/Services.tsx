@@ -67,17 +67,17 @@ const Services = () => {
                             className="text-center mb-16"
                         >
                             <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                <span className="Welcome-text text-[14px]">Our Capabilities</span>
+                                <span className="Welcome-text text-[14px]">The Problem We Solve</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-                                Engineered For
+                                Your Competitors Are
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                    {" "}Performance
+                                    {" "}Stealing Your Leads
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                We don&apos;t build generic websites. We engineer custom digital infrastructure
-                                that accelerates your business — from high-velocity platforms to automated revenue systems.
+                                Every second your site takes to load, you lose 7% of conversions. Every lead that bounces
+                                goes straight to your competitor. We engineer systems that capture, qualify, and convert — automatically.
                             </p>
                         </motion.div>
                     )}
@@ -140,13 +140,14 @@ const Services = () => {
                             variants={slideInFromTop}
                             className="text-center mt-16"
                         >
+                            <p className="text-gray-500 mb-4">But don&apos;t take our word for it...</p>
                             <a
-                                href="#contact"
+                                href="#testimonials"
                                 className="inline-flex items-center gap-2 py-4 px-8 bg-gradient-to-r from-indigo-500 to-blue-600 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                             >
-                                Schedule Technical Discovery
+                                See What Our Clients Say
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                                 </svg>
                             </a>
                         </motion.div>

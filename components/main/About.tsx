@@ -68,7 +68,7 @@ const About = () => {
                                     variants={slideInFromTop}
                                 >
                                     <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                        <span className="Welcome-text text-[14px]">About NebulaStack</span>
+                                        <span className="Welcome-text text-[14px]">Why Businesses Trust Us</span>
                                     </span>
                                 </motion.div>
                             )}
@@ -83,13 +83,9 @@ const About = () => {
                                     variants={slideInFromRight(0.3)}
                                     className="text-4xl md:text-5xl font-bold text-white"
                                 >
-                                    Engineering
+                                    We Don&apos;t Build Websites.
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                        {" "}Digital Systems{" "}
-                                    </span>
-                                    That
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                        {" "}Scale
+                                        {" "}We Build Revenue Machines.
                                     </span>
                                 </motion.h2>
                             )}
@@ -104,10 +100,9 @@ const About = () => {
                                     variants={slideInFromRight(0.5)}
                                     className="text-gray-400 text-lg leading-relaxed"
                                 >
-                                    Nebula Stack is a digital consultancy for businesses that refuse to
-                                    compromise on performance. We architect high-velocity web platforms
-                                    and custom business software that eliminate bottlenecks, automate
-                                    operations, and compound your competitive advantage.
+                                    Most agencies build pretty websites that don&apos;t convert. We&apos;re different.
+                                    Nebula Stack engineers high-velocity platforms that capture leads 24/7,
+                                    qualify prospects automatically, and feed your sales pipeline while you sleep.
                                 </motion.p>
                             )}
                         </InView>
@@ -159,10 +154,10 @@ const About = () => {
                                     className="pt-6"
                                 >
                                     <a
-                                        href="#services"
+                                        href="#pricing"
                                         className="inline-flex items-center gap-2 py-4 px-8 button-primary text-white cursor-pointer rounded-full font-semibold border border-[#7042f88b] hover:scale-105 transition-all"
                                     >
-                                        Explore Our Capabilities
+                                        See Investment Options
                                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                         </svg>

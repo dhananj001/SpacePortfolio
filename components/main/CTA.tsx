@@ -36,7 +36,7 @@ const CTA = () => {
                                 >
                                     <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center">
                                         <HiOutlineSparkles className="text-purple-400 mr-2" />
-                                        <span className="Welcome-text text-[14px]">Limited Spots Available</span>
+                                        <span className="Welcome-text text-[14px]">Only 3 Spots Left This Month</span>
                                     </span>
                                 </motion.div>
 
@@ -44,9 +44,9 @@ const CTA = () => {
                                     variants={slideInFromLeft(0.3)}
                                     className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6"
                                 >
-                                    Ready to Build Your
+                                    While You&apos;re Reading This,
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                        {" "}Lead Generation Machine?
+                                        {" "}Your Competitor Just Got A Lead
                                     </span>
                                 </motion.h2>
 
@@ -54,8 +54,8 @@ const CTA = () => {
                                     variants={slideInFromRight(0.5)}
                                     className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-10"
                                 >
-                                    Join 200+ businesses that have transformed their digital presence with NebulaStack.
-                                    Get a free consultation and discover how we can 10x your online conversions.
+                                    Every day without an optimized digital presence is revenue walking out the door.
+                                    The businesses that act now will dominate their market in 2026. Will you be one of them?
                                 </motion.p>
 
                                 <motion.div
@@ -66,11 +66,11 @@ const CTA = () => {
                                         href="#contact"
                                         className="group py-4 px-10 bg-gradient-to-r from-indigo-500 to-blue-600 text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25 flex items-center gap-2"
                                     >
-                                        Get Your Free Strategy Call
+                                        Claim Your Free Strategy Session
                                         <HiOutlineArrowRight className="group-hover:translate-x-1 transition-transform" />
                                     </a>
                                     <div className="text-gray-400 text-sm">
-                                        ✓ No obligation &nbsp;·&nbsp; ✓ 30-min call &nbsp;·&nbsp; ✓ Custom roadmap
+                                        ✓ No obligation &nbsp;·&nbsp; ✓ 30-min call &nbsp;·&nbsp; ✓ Custom growth roadmap
                                     </div>
                                 </motion.div>
 

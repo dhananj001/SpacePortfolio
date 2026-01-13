@@ -42,17 +42,17 @@ const Contact = () => {
                             className="text-center mb-16"
                         >
                             <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                <span className="Welcome-text text-[14px]">Let&apos;s Talk</span>
+                                <span className="Welcome-text text-[14px]">You&apos;re One Message Away</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-                                Start Your
+                                The Best Time Was Yesterday.
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                    {" "}Project Today
+                                    {" "}The Next Best Time Is Now.
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                Ready to transform your digital presence? Fill out the form below
-                                and we&apos;ll get back to you within 24 hours with a custom proposal.
+                                In 30 days, you&apos;ll either have a system generating leads for you, or you&apos;ll
+                                still be where you are now. Which future do you want? Let&apos;s talk.
                             </p>
                         </motion.div>
                     )}

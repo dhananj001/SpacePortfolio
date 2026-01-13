@@ -110,9 +110,9 @@ const HeroContent = () => {
                                     variants={slideInFromLeft(0.8)}
                                     className="text-lg md:text-xl text-gray-400 my-5 max-w-[650px] z-30 leading-relaxed"
                                 >
-                                    Stop losing customers to slow loading speeds. We engineer
-                                    high-performance websites and custom business software that
-                                    loads instantly, ranks higher, and automates your leads.
+                                    <span className="text-white font-medium">Every 3 seconds</span>, a potential customer leaves your site because it&apos;s too slow.
+                                    We engineer high-performance digital systems that load in 0.4s, rank on page one,
+                                    and convert visitors into revenue — automatically.
                                 </motion.p>
                             )}
                         </InView>
@@ -131,14 +131,14 @@ const HeroContent = () => {
                                         href="#contact"
                                         className="py-4 px-8 bg-gradient-to-r from-indigo-500 to-blue-600 text-center text-white cursor-pointer rounded-full font-semibold text-lg hover:scale-105 transition-all hover:shadow-lg hover:shadow-indigo-500/25"
                                     >
-                                        Request Architecture Review
+                                        Get My Free Growth Audit →
                                     </a>
                                     <a
                                         href="#projects"
                                         className="py-4 px-8 button-primary text-center text-white cursor-pointer rounded-full font-semibold text-lg border border-[#7042f88b] hover:scale-105 transition-all flex items-center justify-center gap-2"
                                     >
                                         <HiOutlineSparkles className="text-purple-400" />
-                                        View Case Studies
+                                        See Real Results First
                                     </a>
                                 </motion.div>
                             )}
@@ -167,9 +167,9 @@ const HeroContent = () => {
                                         ))}
                                     </div>
                                     <div className="text-gray-400 text-sm">
-                                        <span className="text-white font-semibold">$12M+</span> Revenue Generated for Clients
+                                        <span className="text-white font-semibold">$12M+</span> client revenue generated
                                         <div className="flex items-center gap-1 text-yellow-400">
-                                            ★★★★★ <span className="text-gray-400">Enterprise-Grade Solutions</span>
+                                            ★★★★★ <span className="text-gray-400">Trusted by 47 businesses</span>
                                         </div>
                                     </div>
                                 </motion.div>

@@ -105,18 +105,18 @@ const Pricing = () => {
                             className="text-center mb-8"
                         >
                             <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                <span className="Welcome-text text-[14px]">Investment Tiers</span>
+                                <span className="Welcome-text text-[14px]">The Investment That Pays For Itself</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-                                Transparent
+                                What&apos;s A
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                    {" "}Premium{" "}
+                                    {" "}Lost Customer{" "}
                                 </span>
-                                Pricing
+                                Worth?
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                Enterprise-grade solutions with clear, upfront investment.
-                                No hidden fees. No surprises. Just results.
+                                If each lost lead costs you $500+ in lifetime value, how many can you afford to lose
+                                this month? Our clients typically see 340% ROI within 90 days.
                             </p>
                         </motion.div>
                     )}
@@ -138,8 +138,8 @@ const Pricing = () => {
                                         key={currency.code}
                                         onClick={() => setSelectedCurrency(currency.code)}
                                         className={`relative px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${selectedCurrency === currency.code
-                                                ? "text-white"
-                                                : "text-gray-400 hover:text-gray-200"
+                                            ? "text-white"
+                                            : "text-gray-400 hover:text-gray-200"
                                             }`}
                                     >
                                         {selectedCurrency === currency.code && (
@@ -177,8 +177,8 @@ const Pricing = () => {
                                                 : slideInFromBottom
                                     }
                                     className={`relative p-8 rounded-2xl flex flex-col h-full ${plan.popular
-                                            ? "bg-gradient-to-b from-[#1a1a3e] to-[#0c0c1d] border-2 border-purple-500/50"
-                                            : "bg-gradient-to-b from-[#0c0c1d] to-transparent border border-[#7042f861]"
+                                        ? "bg-gradient-to-b from-[#1a1a3e] to-[#0c0c1d] border-2 border-purple-500/50"
+                                        : "bg-gradient-to-b from-[#0c0c1d] to-transparent border border-[#7042f861]"
                                         } transition-all duration-300 hover:border-purple-500/50`}
                                 >
                                     {/* Popular Badge */}
@@ -233,8 +233,8 @@ const Pricing = () => {
                                     <a
                                         href="#contact"
                                         className={`block w-full py-4 px-6 text-center rounded-full font-semibold text-lg transition-all hover:scale-105 mt-auto ${plan.popular
-                                                ? "bg-gradient-to-r from-indigo-500 to-blue-600 text-white hover:shadow-lg hover:shadow-indigo-500/25"
-                                                : "border border-[#7042f88b] text-white hover:border-purple-500"
+                                            ? "bg-gradient-to-r from-indigo-500 to-blue-600 text-white hover:shadow-lg hover:shadow-indigo-500/25"
+                                            : "border border-[#7042f88b] text-white hover:border-purple-500"
                                             }`}
                                     >
                                         {plan.cta}

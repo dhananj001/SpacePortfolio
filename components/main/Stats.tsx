@@ -7,24 +7,24 @@ import { InView } from "react-intersection-observer";
 
 const stats = [
     {
-        number: "200+",
-        label: "Projects Delivered",
-        description: "Successfully launched"
+        number: "$12M+",
+        label: "Revenue Generated",
+        description: "For our clients in 2025"
     },
     {
-        number: "50+",
-        label: "Happy Clients",
-        description: "Worldwide"
+        number: "0.4s",
+        label: "Avg. Load Time",
+        description: "3x faster than industry"
     },
     {
-        number: "10x",
-        label: "Average ROI",
-        description: "For our clients"
+        number: "340%",
+        label: "Avg. Conversion Lift",
+        description: "Within 90 days"
     },
     {
-        number: "98%",
-        label: "Client Retention",
-        description: "Come back for more"
+        number: "47",
+        label: "Active Projects",
+        description: "Limited availability"
     }
 ];
 

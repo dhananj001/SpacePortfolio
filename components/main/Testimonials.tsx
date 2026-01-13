@@ -71,17 +71,17 @@ const Testimonials = () => {
                             className="text-center mb-16"
                         >
                             <span className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] inline-flex items-center mb-4">
-                                <span className="Welcome-text text-[14px]">Client Success Stories</span>
+                                <span className="Welcome-text text-[14px]">Why 47 Businesses Chose Us This Quarter</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-                                What Our
+                                They Had The Same
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-600">
-                                    {" "}Clients Say
+                                    {" "}Doubts You Have
                                 </span>
                             </h2>
                             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                                Don&apos;t just take our word for it. Here&apos;s what business owners
-                                and founders are saying about working with NebulaStack.
+                                "Is it worth the investment?" "Will it actually work for my business?"
+                                Here&apos;s what they discovered after working with us.
                             </p>
                         </motion.div>
                     )}
@@ -137,6 +137,30 @@ const Testimonials = () => {
                         </InView>
                     ))}
                 </div>
+
+                {/* Journey CTA */}
+                <InView triggerOnce={false}>
+                    {({ inView, ref }) => (
+                        <motion.div
+                            ref={ref}
+                            initial="hidden"
+                            animate={inView ? "visible" : "hidden"}
+                            variants={slideInFromTop}
+                            className="text-center mt-16"
+                        >
+                            <p className="text-gray-500 mb-4">Want to see the work behind these results?</p>
+                            <a
+                                href="#projects"
+                                className="inline-flex items-center gap-2 py-4 px-8 button-primary text-white cursor-pointer rounded-full font-semibold border border-[#7042f88b] hover:scale-105 transition-all"
+                            >
+                                Explore Our Case Studies
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                                </svg>
+                            </a>
+                        </motion.div>
+                    )}
+                </InView>
             </div>
         </section>
     );
